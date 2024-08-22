@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const { db } = require('@vercel/postgres');
 const {
   invoices,
